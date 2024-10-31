@@ -5,5 +5,5 @@ class Book:
         self.is_borrowed = False
     
     def __str__(self):
-        print(f"title: '{self.title}' author '{self.author}'")
+        return f"title: '{self.title}' author '{self.author}'"
     
